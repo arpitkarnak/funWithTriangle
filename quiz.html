@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Quiz</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">Triangle Quiz</h1>
+
+      <form class="quiz-form">
+        <div class="question-container">
+          <p>
+            What is the third angle for the triangle where angle=60° and
+            angle2=60° ?
+
+            <label>
+              <input type="radio" name="question1" value="45°" />45°
+            </label>
+            <label>
+              <input type="radio" name="question1" value="60°" />60°
+            </label>
+            <label>
+              <input type="radio" name="question1" value="90°" />90°
+            </label>
+          </p>
+        </div>
+
+        <div class="question-container">
+          <p>
+            If a triangle has an angle of 90 degree then what it is called?
+
+            <label>
+              <input type="radio" name="question2" value="acute" />acute
+            </label>
+            <label>
+              <input type="radio" name="question2" value="obtuse" />obtuse
+            </label>
+            <label>
+              <input type="radio" name="question2" value="right angle" />right
+              angle
+            </label>
+          </p>
+        </div>
+
+        <div class="question-container">
+          <p>
+            How many sides are there in a triangle?
+
+            <label> <input type="radio" name="question3" value="1" />1 </label>
+            <label> <input type="radio" name="question3" value="2" />2 </label>
+            <label> <input type="radio" name="question3" value="3" />3 </label>
+          </p>
+        </div>
+
+        <div class="question-container">
+          <p>
+            What is the sum of all angles of triangles?
+
+            <label>
+              <input type="radio" name="question4" value="180" />180
+            </label>
+            <label>
+              <input type="radio" name="question4" value="360" />360
+            </label>
+            <label>
+              <input type="radio" name="question4" value="90" />90
+            </label>
+          </p>
+        </div>
+
+        <div class="question-container">
+          <p>
+            What is the name of triangle whose all side are equal?
+
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="acute triangle"
+              />acute triangle
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="right angle triangle"
+              />right angle triangle
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="equilateral triangle"
+              />equilateral triangle
+            </label>
+          </p>
+        </div>
+      </form>
+      <button id="submit-answer">Submit</button>
+      <div id="output"></div>
+    </div>
+    <script src="/quiz.js"></script>
+  </body>
+</html>
