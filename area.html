@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/area.css" />
     <title>Area of Triangle</title>
   </head>
   <body>
     <div class="container">
       <nav>
-        <a href="/area.html">Area Of Triangle</a>
-        <a href="/hypo.html">Calculate Hypotenuse</a>
-        <a href="/isTriangle.html">Triangle Fun</a>
-        <a href="/quiz.html">Triangle Quiz</a>
+        <ul class="nav_links">
+          <li><a class="anchor" href="/area.html">Area Of Triangle</a></li>
+          <li><a class="anchor" href="/hypo.html">Calculate Hypotenuse</a></li>
+          <li><a class="anchor" href="/isTriangle.html">Triangle Fun</a></li>
+          <li><a class="anchor" href="/quiz.html">Triangle Quiz</a></li>
+          <li></li>
+        </ul>
       </nav>
       <h1 id="heading">Check Area Of A Triangle</h1>
 
-      <div>Area of Triangle = 1/2{Base*Height}</div>
+      <h2 id="formula">Area of Triangle = 1/2{Base*Height}</h2>
 
-      <label>Base(in cm)</label>
+      <label>Base(in cm) :</label>
       <input type="number" class="input-value" />
-      <label>Height(in cm)</label>
+      <label> Height(in cm) :</label>
       <input type="number" class="input-value" />
 
       <button id="check-btn">Check Area</button>

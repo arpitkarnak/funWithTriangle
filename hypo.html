@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/hypo.css" />
     <title>Calculate Hypotenuse</title>
   </head>
 
   <body>
     <nav>
-      <a href="/area.html">Area Of Triangle</a>
-      <a href="/hypo.html">Calculate Hypotenuse</a>
-      <a href="/isTriangle.html">Triangle Fun</a>
-      <a href="/quiz.html">Triangle Quiz</a>
+      <ul class="nav_links">
+        <li><a class="anchor" href="/area.html">Area Of Triangle</a></li>
+        <li><a class="anchor" href="/hypo.html">Calculate Hypotenuse</a></li>
+        <li><a class="anchor" href="/isTriangle.html">Triangle Fun</a></li>
+        <li><a class="anchor" href="/quiz.html">Triangle Quiz</a></li>
+        <li></li>
+      </ul>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label>a=</label>
+    <h1 id="heading">Calculate Hypotenuse</h1>
+    <label class="formula">a=</label>
     <input type="number" class="side-input" />
 
-    <label>b=</label>
+    <label class="formula">b=</label>
     <input type="number" class="side-input" />
 
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>

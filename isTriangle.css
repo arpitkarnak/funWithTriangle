@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  padding: 0;
+  background-color: yellowgreen;
+}
+
+body {
+  font-family: cursive;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+/* body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10px;
+} */
+
+.nav_links {
+  list-style: outside;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+#heading {
+  margin-top: 1em;
+  margin-left: 1rem;
+  padding-left: 18rem;
+  padding-right: 9em;
+  font-size: 3.5em;
+  margin-bottom: 1em;
+  background-color: blueviolet;
+}
+
+/* #formula {
+  font-size: xx-large;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 15em;
+  margin-bottom: 2em;
+} */
+
+label {
+  font-size: x-large;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.angle-input {
+  background-color: #0088a9;
+  font-size: x-large;
+}
+
+#is-triangle-btn {
+  margin-left: 4rem;
+}
+
+.output2 {
+  font-size: x-large;
+  color: black;
+  font-weight: 700;
+  background-color: #7da6b4;
+  margin-top: 6em;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  padding-left: 30%;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}

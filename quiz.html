@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/quiz.css" />
     <title>Triangle Quiz</title>
   </head>
 
   <body>
     <div class="container">
       <nav>
-        <a href="/area.html">Area Of Triangle</a>
-        <a href="/hypo.html">Calculate Hypotenuse</a>
-        <a href="/isTriangle.html">Triangle Fun</a>
-        <a href="/quiz.html">Triangle Quiz</a>
+        <ul class="nav_links">
+          <li><a class="anchor" href="/area.html">Area Of Triangle</a></li>
+          <li><a class="anchor" href="/hypo.html">Calculate Hypotenuse</a></li>
+          <li><a class="anchor" href="/isTriangle.html">Triangle Fun</a></li>
+          <li><a class="anchor" href="/quiz.html">Triangle Quiz</a></li>
+          <li></li>
+        </ul>
       </nav>
       <h1 class="heading">Triangle Quiz</h1>
 
       <form class="quiz-form">
         <div class="question-container">
-          <p>
-            What is the third angle for the triangle where angle=60° and
+          <p id="question">
+            Q.1) What is the third angle for the triangle where angle=60° and
             angle2=60° ?
 
             <label>
@@ -36,8 +40,8 @@
         </div>
 
         <div class="question-container">
-          <p>
-            If a triangle has an angle of 90 degree then what it is called?
+          <p id="question">
+            Q.2) If a triangle has an angle of 90 degree then what it is called?
 
             <label>
               <input type="radio" name="question2" value="acute" />acute
@@ -53,8 +57,8 @@
         </div>
 
         <div class="question-container">
-          <p>
-            How many sides are there in a triangle?
+          <p id="question">
+            Q.3) How many sides are there in a triangle?
 
             <label> <input type="radio" name="question3" value="1" />1 </label>
             <label> <input type="radio" name="question3" value="2" />2 </label>
@@ -63,8 +67,8 @@
         </div>
 
         <div class="question-container">
-          <p>
-            What is the sum of all angles of triangles?
+          <p id="question">
+            Q.4) What is the sum of all angles of triangles?
 
             <label>
               <input type="radio" name="question4" value="180" />180
@@ -79,8 +83,8 @@
         </div>
 
         <div class="question-container">
-          <p>
-            What is the name of triangle whose all side are equal?
+          <p id="question">
+            Q.5) What is the name of triangle whose all side are equal?
 
             <label>
               <input
