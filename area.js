@@ -22,11 +22,11 @@ function final(){
 
     if(finalValue<=0){
         output1.innerText = "Please Provide Value more than 0 "  
-    } else if(finalValue=" ") {
-        output1.innerText = "Provide value more than 0"
+    } else if(finalValue>0) {
+        output1.innerText = "The Area of Triangle is " + finalValue; 
         
     } else {
-        output1.innerText = "The Area of Triangle is " + finalValue 
+        output1.innerText = "Please Provide Value more than 0"
     }
     
 }
