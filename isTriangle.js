@@ -4,8 +4,26 @@ var output1 = document.querySelector(".output2");
 
 
 function calculateSumOfAngles(angle1,angle2,angle3){
-    const sumOfAngles =angle1 + angle2 + angle3;
-    return sumOfAngles;
+    
+    if(angle1>0){
+        if(angle1<180){
+            if(angle2>0){
+                if(angle2<180){
+                    if(angle3>0){
+                        if(angle3<180){
+                            const sumOfAngles =angle1 + angle2 + angle3;
+                            return sumOfAngles;
+
+                        }
+                    }
+                }
+            }
+        }
+     }
+
+     else {
+        output1.innerText = "Please Provide angle between 0 to 180"
+    }
 }
 
 function isTriangle()  {
