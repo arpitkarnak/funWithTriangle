@@ -56,12 +56,17 @@ button:hover {
 
 #heading {
   margin-top: 1em;
-  margin-left: 1rem;
+  margin-right: 20rem;
+  margin-left: 15rem;
   padding-left: 18rem;
   padding-right: 9em;
   font-size: 3.5em;
   margin-bottom: 1em;
-  background-color: blueviolet;
+  background-color: black;
+  color: wheat;
+  border: 2px solid white;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 5rem;
 }
 
 .formula {
@@ -84,22 +89,32 @@ label {
   background-color: #0088a9;
   font-size: x-large;
   border: 3px solid black;
+  border-radius: 1rem;
+  padding-left: 1rem;
 }
 
-#check-btn {
-  margin-left: 4rem;
+#hypotenuse-btn {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  border-radius: 1em;
+  border: 2px solid black;
+  font-weight: bolder;
 }
 
 #output {
   font-size: x-large;
-  color: darkslategrey;
+  color: white;
   font-weight: 700;
-  background-color: #94d7ee;
+  background-color: #1b1f0a;
   margin-top: 2em;
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-left: 30%;
   padding-right: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+  border-radius: 3rem;
+  border: 2px solid white;
 }
