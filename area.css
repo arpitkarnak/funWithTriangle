@@ -56,12 +56,16 @@ button:hover {
 
 #heading {
   margin-top: 1em;
-  margin-left: 1rem;
-  padding-left: 18rem;
-  padding-right: 9em;
+  margin-left: 2rem;
   font-size: 39px;
   margin-bottom: 1em;
   background-color: rgb(68, 159, 182);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 4px solid black;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  text-align: center;
 }
 
 #formula {
@@ -93,13 +97,24 @@ label {
   font-size: x-large;
   color: rgb(37, 43, 43);
   font-weight: 700;
-  background-color: #4f9cb6;
+  background-color: white;
   margin-top: 2em;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 15rem;
+  margin-right: 12rem;
   padding-top: 2rem;
-  padding-left: 30%;
+  padding-left: 7rem;
   padding-right: 10rem;
   padding-bottom: 2rem;
-  border: 6px solid rgb(2, 55, 116);
+  border: 6px solid rgb(4, 21, 41);
+  border-radius: 4rem;
+}
+
+#check-btn {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  border-radius: 1em;
+  border: 2px solid black;
+  font-weight: bolder;
 }
