@@ -47,14 +47,11 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-#heading {
+.heading {
+  text-align: center;
   margin-top: 1em;
-  margin-left: 1rem;
-  padding-left: 18rem;
-  padding-right: 9em;
-  font-size: 3.5em;
-  margin-bottom: 1em;
-  background-color: blueviolet;
+  font-size: 3em;
+  margin-bottom: 0.5rem;
 }
 
 label {
@@ -78,13 +75,18 @@ label {
 
 #output {
   font-size: x-large;
-  color: darkslategrey;
+  color: rgb(255, 255, 255);
   font-weight: 700;
-  background-color: #94d7ee;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  background-color: #00471e;
+  margin-left: 6em;
+  margin-right: 6em;
+  text-align: center;
+  padding-left: 5rem;
   padding-top: 1rem;
-  padding-left: 30%;
   padding-right: 10rem;
   padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 3rem;
+  border: 2px solid white;
 }
